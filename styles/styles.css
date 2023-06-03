@@ -15,7 +15,7 @@
 /* ----------- Body --------------- */
 body {
     background-color: rgb(34, 30, 30);
-    background-image: url(/img/fondoBody.jpg);
+    background-image: url(../img/fondoBody.jpg);
     background-blend-mode: soft-light;
     background-position: center center;
     background-repeat: no-repeat;
