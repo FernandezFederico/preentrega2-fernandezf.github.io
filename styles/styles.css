@@ -15,7 +15,7 @@
 /* ----------- Body --------------- */
 body {
     background-color: rgb(34, 30, 30);
-    background-image: url(/img/fondoBody.jpg);
+    background-image: url(../img/fondoBody.jpg);
     background-blend-mode: soft-light;
     background-position: center center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ header a:hover {
 
 main {
     background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)),
-    url(/img/fondoBody.jpg);
+    url(../img/fondoBody.jpg);
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -481,7 +481,7 @@ footer a:hover {
 
 .quienesBanner {
     /* background-color: darkgoldenrod; */
-    background-image: url(/img/fondoBody.jpg);
+    background-image: url(../img/fondoBody.jpg);
     background-position: center center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
