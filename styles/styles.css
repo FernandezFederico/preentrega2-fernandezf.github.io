@@ -1,0 +1,886 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    text-decoration: none;
+
+}
+
+/*---------- Font.Famylys ----------*/
+/* ABeeeZee font-family: 'ABeeZee', sans-serif;*/
+/* Bree Seryf font-family: 'Bree Serif', serif;*/
+
+/* ----------- Body --------------- */
+body {
+    background-color: rgb(34, 30, 30);
+    background-image: url(/img/fondoBody.jpg);
+    background-blend-mode: soft-light;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+a {
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    color: whitesmoke;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* ----------- index --------------- */
+
+/* ----------- Header --------------- */
+
+header {
+    background-color: black;
+    width: 100%;
+    min-height: 90px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(75, 74, 74);
+
+    display: grid;
+}
+
+header .headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .headerImg {
+    height: 50px;
+    border-radius: 50%;
+}
+
+header .headerH1 {
+    /* background-color: white; */
+    padding-left: 20px;
+}
+
+header .headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header li {
+    /* background-color: white; */
+    margin: 10px 20px;
+
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(175, 38, 38);
+}
+
+/* ----------- MAIN --------------- */
+
+main {
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)),
+    url(/img/fondoBody.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 280px;
+    margin-top: 45px;
+}
+
+main .streamingText {
+    /* background-color: aqua; */
+    width: 100%;
+    min-height: 10px;
+    padding: 20px;
+
+}
+
+main .streamingText p {
+    /* background-color: brown; */
+    margin-top: 10px;
+}
+
+main .streamig {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+main .streamig .iframConteiner {
+    /* background-color: chartreuse; */
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+main .streamig .iframConteiner .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------- Quienes Somos --------------- */
+.quienesSomos {
+    /* background-color: burlywood; */
+    width: 100%;
+    min-height: 200 px;
+    margin-top: 45px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quienesSomos .titular {
+    /* background-color: rgb(184, 11, 126); */
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.quienesSomos .titularTitulo {
+    /* background-color: chartreuse; */
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quienesSomos .titular .titularTitulo a {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.quienesSomos .titular p {
+    /* background-color:blue; */
+    margin-top: 10px;
+
+}
+
+.quienesSomos .img {
+
+    max-width: 100%;
+    min-height: 100px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quienesSomos .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+/* ----------- In-game --------------- */
+
+.inGame {
+    /* background-color:darkgoldenrod; */
+    background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50));
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inGame .inGameTitular {
+    /* background-color:cornflowerblue; */
+    width: 100%;
+    min-height: 40px;
+    padding: 20px;
+}
+
+.inGame .inGameTitular .inGameText {
+    /* background-color:chartreuse; */
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inGame .inGameTitular p {
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+
+.inGame .inGameTitular .inGameText a {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inGame .ingameImg {
+    /* background-color: green; */
+    max-width: 75%;
+    min-height: 100px;
+
+
+}
+
+.inGame .ingameImg .inGameConteiner {
+    /* background-color: greenyellow; */
+    width: 100%;
+    min-height: 40px;
+    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inGame .ingameImg .inGameConteiner img {
+    /* background-color: brown; */
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+
+}
+
+/* ----------- Recursos --------------- */
+.recursos {
+    /* background-color:darkgoldenrod; */
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+}
+
+.recursos .recursosTitular {
+    /* background-color:cornflowerblue; */
+    width: 100%;
+    min-height: 40px;
+    padding: 20px;
+
+}
+
+.recursos .recursosTitular p {
+    /* background-color: blue; */
+    margin-top: 10px;
+}
+
+.recursos .recursosTitular .recursosText {
+    /* background-color:chartreuse; */
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.recursos .recursosTitular .recursosText a {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.recursos .recursosImg {
+    /* background-color: green; */
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recursos .recursosImg .recursosConteiner {
+    /* background-color: greenyellow; */
+    max-width: 150px;
+    margin: 5px;
+}
+
+.recursos .recursosImg img {
+    /* background-color: brown; */
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+/* ----------- Partners --------------- */
+
+.partners {
+    /* background-color:darkgoldenrod; */
+    background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50));
+    width: 100%;
+    min-height: 50px;
+    margin-top: 40px;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.partners a {
+    /* background-color: greenyellow; */
+    max-width: 150px;
+}
+
+.partners a img {
+    /* background-color: brown; */
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+/* ----------- Footer --------------- */
+footer {
+    background-color: black;
+    width: 100%;
+    min-height: 90px;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footerLogo {
+    /* background-color: grey; */
+    width: 100%;
+    min-height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footerLogo img {
+    /* background-color: brown; */
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer .footerLogo p {
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer .footerNav {
+    /* background-color: aqua; */
+    width: 100%;
+    min-height: 50px;
+    padding: 5px;
+}
+
+footer .footerNav ul {
+    /* background-color: azure; */
+    margin: 5px;
+
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footerNav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+footer .footerNav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .redes {
+    /* background-color: green; */
+    width: 100%;
+    min-width: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .redes a {
+    /* background-color:greenyellow; */
+    padding: 5px;
+    margin: 5px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes a img {
+    /* background-color: brown; */
+    height: 30px;
+    border-radius: 10%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(175, 38, 38);
+}
+
+
+/* ----------- PAGE --------------- */
+
+
+/* ----------- PAGE Quienes Somos --------------- */
+
+.quienesBanner {
+    /* background-color: darkgoldenrod; */
+    background-image: url(/img/fondoBody.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienesBanner img {
+    /* background-color: blueviolet; */
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.quienesText {
+    /* background-color: darkgoldenrod; */
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.quienesText p {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+
+.quienesFundadores {
+    /* background-color: darkgoldenrod; */
+    background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50));
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+}
+
+.quienesFundadores h2 {
+    /* background-color: blue; */
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.miembrosImg {
+    /* background-color: aqua; */
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px 20px;
+}
+
+.quienesFundadores .miembrosImg .miembros {
+    /* background-color: coral; */
+    max-width: 300px;
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quienesFundadores .miembrosImg .miembros p {
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.quienesFundadores .miembrosImg .miembros .miembroimg {
+    /* background-color: chartreuse; */
+    width: 100%;
+    min-height: 150px;
+
+
+
+}
+
+.quienesFundadores .miembrosImg .miembros .miembroimg img {
+    /* background-color: brown; */
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
+/* ----------- PAGE In-Game --------------- */
+
+.ingameBanner {
+    /* background-color: darkgoldenrod; */
+    background-color: rgb(78, 63, 63);
+    background-blend-mode: soft-light;
+    background-image: url(../img/dragon.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.ingameBanner h2 {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.ingameBanner p {
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ingame {
+    /* background-color: purple; */
+    background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50));
+    width: 100%;
+    min-width: 300px;
+    margin-top: 40px;
+    padding: 20px;
+
+}
+
+.ingame .gameText h2 {
+    /* background-color: blue; */
+    text-align: center;
+    margin: 30px;
+}
+
+.ingame .gameText p {
+    /* background-color: blue; */
+    text-align: center;
+    margin: 30px;
+}
+
+.ingame .gameVideos {
+    /* background-color: yellow; */
+    width: 100%;
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.video {
+    /* background-color: chartreuse; */
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.gameVideos .video iframe {
+    /* background-color: brown; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* ----------- PAGE Recursos --------------- */
+
+.recuroText {
+    /* background-color: darkgoldenrod; */
+    background-color: rgb(78, 63, 63);
+    background-blend-mode: soft-light;
+    background-image: url(../img/dragon.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.recuroText h2 {
+    /* background-color: blue; */
+    text-align: center;
+}
+.recuroText p {
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.recursoImg {
+    /* background-color: darkgoldenrod; */
+    width: 100%;
+    min-height: 300px;
+    margin-top: 40px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+
+}
+.recursoImg .recurso {
+    /* background-color: aqua; */
+    background: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50));
+    padding: 50px;
+    width: auto;
+    min-height: 300px;
+    margin: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.recursoImg .recurso a {
+    /* background-color: blueviolet; */
+    max-width: 200px;
+}
+
+.recursoImg .recurso a img {
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.recursoImg .recurso p {
+    /* background-color: blue; */
+    font-size: 12px;
+    max-width: 200px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ----------- PAGE Contacto --------------- */
+
+
+
+/*     -----------     MediaQueries     -----------    */
+
+
+/*     --  Index -    */
+
+@media (min-width: 1023px) {
+    header {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        padding: 0 150px;
+    }
+
+    header .headerLogo {
+        justify-content: left;
+    }
+
+    header .headerNav {
+        justify-content: right;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 150px;
+    }
+
+    main .streamingText {
+        width: 50%;
+    }
+
+    .quienesSomos {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 150px;
+        align-items: self-start;
+    }
+
+    .quienesSomos .titular {
+        width: 70%;
+    }
+
+
+    .quienesSomos .img {
+        align-items: flex-end;
+        width: 60%;
+        height: auto;
+    }
+
+    .inGame {
+        padding: 0 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+
+    .inGame .inGameTitular {
+        width: 100%;
+    }
+
+    .inGame .ingameImg {
+        max-width: 45%;
+        height: autoS;
+    }
+
+
+
+    .inGame .ingameImg .imgConteiner {
+        flex-direction: row;
+    }
+
+    .recursos {
+        padding: 0 150px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .recursos .recursosImg {
+        justify-content: space-between;
+    }
+
+
+    .recursos .recursosImg .recursosConteiner {
+        max-width: 200px;
+    }
+
+    .recursos .recursosTitular {
+        width: 50%;
+    }
+
+    .partners {
+        padding: 0 150px;
+    }
+
+
+    footer {
+        justify-content: space-around;
+    }
+
+    /* --- Quienes Somos --- */
+
+    .quienesText {
+        padding: 0 150px;
+    }
+
+    .quienesFundadores {
+        padding: 0 150px;
+    }
+
+    .quienesFundadores .miembrosImg .miembros {
+        max-width: 400px;
+    }
+
+    .miembrosImg {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px 40px;
+    }
+
+   /* --- In-Game --- */
+
+    .ingame {
+        padding: 0 150px;
+    }
+
+
+    .ingame .gameVideos {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    /* --- Recursos --- */
+
+    .recursoImg {
+        padding: 0 150px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 100px;
+
+    }
+
+    /* --- Contacto --- */
+
+
+
+
+
+
+}
